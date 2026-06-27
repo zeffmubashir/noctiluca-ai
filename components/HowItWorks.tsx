@@ -79,7 +79,7 @@ export default function HowItWorks(): React.JSX.Element {
           paddingRight: 'clamp(24px, 5vw, 80px)',
         }}
       >
-        <div style={{ marginBottom: '64px' }}>
+        <div style={{ marginBottom: '40px' }}>
           <p
             className="uppercase text-[#00d4ff]"
             style={{

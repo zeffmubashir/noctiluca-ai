@@ -76,7 +76,7 @@ export default function Industries(): React.JSX.Element {
           paddingRight: 'clamp(24px, 5vw, 80px)',
         }}
       >
-        <div style={{ marginBottom: '56px' }}>
+        <div style={{ marginBottom: '32px' }}>
           <p
             className="uppercase text-[#00d4ff]"
             style={{

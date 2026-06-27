@@ -206,7 +206,7 @@ export default function Contact(): React.JSX.Element {
               <button
                 type="submit"
                 disabled={submitting}
-                className="flex w-full items-center justify-center gap-2 rounded-md border-none bg-[#00d4ff] py-3.5 font-semibold text-[#0a0a0a] transition-all duration-200 hover:bg-[#ffffff] hover:shadow-[0_0_20px_rgba(0,212,255,0.2)] disabled:cursor-not-allowed disabled:opacity-70"
+                className="flex w-full items-center justify-center gap-2 rounded-md border border-[#00d4ff] bg-[#0f0f0f] py-3.5 font-semibold text-[#00d4ff] transition-all duration-200 hover:bg-[#00d4ff] hover:text-[#0a0a0a] disabled:cursor-not-allowed disabled:opacity-70"
                 style={{ fontSize: '15px' }}
               >
                 {submitting ? (
